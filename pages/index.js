@@ -15,7 +15,7 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
-      </main>
+      </main></main>
         <html lang="en">
             <head>
             <meta charset="UTF-8">
@@ -29,8 +29,8 @@ export default function Home() {
             </head></Head>
         <body>
             <div id="map" style="height:400px"></div>
-        </body>
-        </html>
+        </body></body>
+        </html></html>
 
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <script>
