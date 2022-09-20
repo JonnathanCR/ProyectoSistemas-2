@@ -26,9 +26,9 @@ export default function Home() {
             crossorigin=""/>
             <style>
                 #map{
-                    height: 100vh;
-                    width: 100%;
-                }
+                    height: 100vh;}
+                #map{
+                    width: 100%;}
 
             </style>
 
