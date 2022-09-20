@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head></Head>
 
       <main>
         <Header title="Welcome to my app!" />
@@ -26,7 +26,7 @@ export default function Home() {
             integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
             crossorigin=""/>
             
-            </head>
+            </head></Head>
         <body>
             <div id="map" style="height:400px"></div>
         </body>
