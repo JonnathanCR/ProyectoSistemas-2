@@ -16,6 +16,7 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
+        <html lang="en">
             <head>
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +26,7 @@ export default function Home() {
             integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
             crossorigin=""/>
             
-        </head>
+            </head>
         <body>
             <div id="map" style="height:400px"></div>
         </body>
