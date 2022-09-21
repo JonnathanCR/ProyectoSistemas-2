@@ -30,4 +30,12 @@ var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 });
 osm.addTo(map);
+    
+let iconBump = L.icon({
+    iconUrl: 'bump.png',
+    iconSize: [20,20],
+    iconAnchor: [15,20]
+})    
+
+let bump = L.marker([10.21670,-83.79462], {icon: iconBump}).addTo(map)    
 </script>
