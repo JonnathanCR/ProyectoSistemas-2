@@ -48,18 +48,13 @@ var datalayer = L.geoJson(data ,{
 onEachFeature: function(feature, featureLayer) {
 featureLayer.bindPopup(feature.properties.name);
 }
-}).addTo(Map);
-Map.fitBounds(datalayer.getBounds());
+}).addTo(map);
+map.fitBounds(datalayer.getBounds());
 });    
     
 
 
 
-
-    
-    
-
-L.geoJSON(myGeoJSON).addTo(map)
     
 let iconBump = L.icon({
     iconUrl: 'bump.png',
