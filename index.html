@@ -32,36 +32,9 @@ attribution: '&copy; <a href=”http://osm.org/copyright”>OpenStreetMap</a> co
 </body>
 </html>
 <script>
-$.getJSON("multipolygons.geojson",function(data){
-// add GeoJSON layer to the map once the file is loaded
-var datalayer = L.geoJson(data ,{
-onEachFeature: function(feature, featureLayer) {
-featureLayer.bindPopup(feature.properties.name);
-}
-}).addTo(newMap);
-newMap.fitBounds(datalayer.getBounds());
-});
-
-$.getJSON("lines.geojson",function(data){
-// add GeoJSON layer to the map once the file is loaded
-var datalayer1 = L.geoJson(data ,{
-onEachFeature: function(feature1, featureLayer1) {
-featureLayer1.bindPopup(feature1.properties.osm_id);
-}
-}).addTo(newMap);
-newMap.fitBounds(datalayer1.getBounds());
-});
-    
-$.getJSON("points.geojson",function(data){
-// add GeoJSON layer to the map once the file is loaded
-var datalayer2 = L.geoJson(data ,{
-onEachFeature: function(feature2, featureLayer2) {
-featureLayer2.bindPopup(feature2.properties.osm_id);
-}
-}).addTo(newMap);
-newMap.fitBounds(datalayer2.getBounds());
-});   
-    
+<script type="text/javascript" src="countries.js"></script>
+<script>
+L.geoJson(countries).addTo(map);   
     
 let iconBump = L.icon({
     iconUrl: 'bump.png',
