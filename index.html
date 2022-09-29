@@ -44,9 +44,12 @@ osm.addTo(map);
     
 var myGeoJSON = {
 "type": "FeatureCollection",
-"name": "buildings",
+"name": "poligonos",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
+{ "type": "Feature", "properties": { "osm_id": 551194596, "amenity": "school", "name": "Conservatorio San Agustín", "building": null, "addr:city": "Guápiles", "addr:street": "Avenida 7", "cuisine": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.7953189, 10.2169762 ], [ -83.7947721, 10.2169222 ], [ -83.7947253, 10.2173523 ], [ -83.7952904, 10.2174243 ], [ -83.7953189, 10.2169762 ] ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 390918703, "amenity": "restaurant", "name": "Restaurante Garden Pizza", "building": "yes", "addr:city": "Guápiles", "addr:street": "Avenida 7", "cuisine": "pizza" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.7916236, 10.2165892 ], [ -83.7914889, 10.2165779 ], [ -83.7914755, 10.2167324 ], [ -83.7916101, 10.2167437 ], [ -83.7916236, 10.2165892 ] ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 551194597, "amenity": "school", "name": "Escuela Adventista", "building": null, "addr:city": "Guápiles", "addr:street": "Avenida 13", "cuisine": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.7936331, 10.2187768 ], [ -83.7930058, 10.2186952 ], [ -83.7929066, 10.219564 ], [ -83.7935657, 10.2196352 ], [ -83.7936331, 10.2187768 ] ] ] } }
 { "type": "Feature", "properties": { "osm_id": 1096178223, "building": "house", "name": "C4", "amenity": null, "layer": null, "leisure": null, "cuisine": null, "addr:city": null, "addr:street": null, "addr:postcode": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.7932668, 10.217135 ], [ -83.7931814, 10.2171314 ], [ -83.793152, 10.217434 ], [ -83.7932446, 10.217438 ], [ -83.7932668, 10.217135 ] ] ] } },
 { "type": "Feature", "properties": { "osm_id": 1096178222, "building": "house", "name": "C3", "amenity": null, "layer": null, "leisure": null, "cuisine": null, "addr:city": null, "addr:street": null, "addr:postcode": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.7931814, 10.2171314 ], [ -83.7930951, 10.2171161 ], [ -83.7930635, 10.2174274 ], [ -83.793152, 10.217434 ], [ -83.7931814, 10.2171314 ] ] ] } },
 { "type": "Feature", "properties": { "osm_id": 1096178221, "building": "house", "name": "C2", "amenity": null, "layer": null, "leisure": null, "cuisine": null, "addr:city": null, "addr:street": null, "addr:postcode": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.7930951, 10.2171161 ], [ -83.7930008, 10.2171107 ], [ -83.7929817, 10.2172782 ], [ -83.7929695, 10.2174182 ], [ -83.7930635, 10.2174274 ], [ -83.7930951, 10.2171161 ] ] ] } },
@@ -117,6 +120,7 @@ var myGeoJSON = {
 { "type": "Feature", "properties": { "osm_id": 947052371, "building": "yes", "name": "Gimnasio Comunal Coopevigua 1", "amenity": null, "layer": null, "leisure": "sports_hall", "cuisine": null, "addr:city": null, "addr:street": null, "addr:postcode": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.7924786, 10.2175593 ], [ -83.7919571, 10.2174923 ], [ -83.7919367, 10.2177141 ], [ -83.7924582, 10.2177596 ], [ -83.7924786, 10.2175593 ] ] ] } }
 ]
 }
+
 
     
     
