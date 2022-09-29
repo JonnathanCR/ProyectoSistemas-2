@@ -33,12 +33,12 @@
 </body>
 </html>
 
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 <script>
     var map = L.map('map').setView([10.21770,-83.79370], 87);
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '&copy; <a href="http://osm.org/copyright”>OpenStreetMap</a> contributors''
 }).addTo(map);
   
 getJSON("multipolygons.geojson",function(data){
