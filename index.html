@@ -1,4 +1,22 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+    <style>
+        #map{
+            height: 100vh;
+            width: 100%;
+        }
+
+    </style>
+
+</head>
 <font size="3"
       face="arial"
       color="gray">
@@ -9,43 +27,21 @@
 
       Residencial Coopevigua 1, Guapiles Limón.<br><p>
 </font>
-<body bgcolor="white">
+<body bgcolor="1B1828">
+<body>
+    <div id="map" style="height:500px"></div>
+</body>
+</html>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+    var map = L.map('map').setView([10.21770,-83.79370], 87);
+
+var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
+osm.addTo(map);
     
-
-<html>
-<meta charset="utf-8" />
-<head>
-	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
-	<script type="text/javascript" src="multipolygons.js"></script>
-
- <style>
-  #map { 
-  widh: 50px;
-  height: 600px; }
- </style>
- 
- </head>
-  <body>
-   <div id="map"></div>
- <script>
- 
-var map = L.map('map').
-setView([41.66, -4.72], 
-14);
- 
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
-    maxZoom: 18
-}).addTo(map);
-
-L.control.scale().addTo(map);
-L.marker([41.66, -4.71], {draggable: true}).addTo(map);
-L.geoJson(multipolygons).addTo(map);
- </script>
- </body> 
- </html> 
-<script>    
 let iconBump = L.icon({
     iconUrl: 'bump.png',
     iconSize: [20,20],
@@ -70,25 +66,25 @@ let iconHydra = L.icon({
     iconAnchor: [15,20]
 })    
 
-//let bump = L.marker([10.21802,-83.79369], {icon: iconBump}).addTo(map)    
-//let bump2 = L.marker([10.21750,-83.79417], {icon: iconBump}).addTo(map)  
+let bump = L.marker([10.21802,-83.79369], {icon: iconBump}).addTo(map)    
+let bump2 = L.marker([10.21750,-83.79417], {icon: iconBump}).addTo(map)  
 
-//let hydra = L.marker([10.21802,-83.79417], {icon: iconHydra}).addTo(map)    
-//let hydra2 = L.marker([10.21750,-83.79369], {icon: iconHydra}).addTo(map) 
+let hydra = L.marker([10.21802,-83.79417], {icon: iconHydra}).addTo(map)    
+let hydra2 = L.marker([10.21750,-83.79369], {icon: iconHydra}).addTo(map) 
 
-//let peatonal = L.marker([10.21795,-83.79269], {icon: iconPeatonal}).addTo(map)    
-//let peatonal2 = L.marker([10.21743,-83.79272], {icon: iconPeatonal}).addTo(map) 
+let peatonal = L.marker([10.21795,-83.79269], {icon: iconPeatonal}).addTo(map)    
+let peatonal2 = L.marker([10.21743,-83.79272], {icon: iconPeatonal}).addTo(map) 
 
-//let pole = L.marker([10.21796,-83.79262], {icon: iconPole}).addTo(map)    
-//let pole2 = L.marker([10.21742,-83.79272], {icon: iconPole}).addTo(map) 
-//let pole3 = L.marker([10.21801,-83.79362], {icon: iconPole}).addTo(map)    
-//let pole4 = L.marker([10.21751,-83.79412], {icon: iconPole}).addTo(map)    
-//let pole5 = L.marker([10.21801,-83.79412], {icon: iconPole}).addTo(map)    
-//let pole6 = L.marker([10.21751,-83.79362], {icon: iconPole}).addTo(map)    
-//let pole7 = L.marker([10.21795,-83.79319], {icon: iconPole}).addTo(map)    
-//let pole8 = L.marker([10.21743,-83.79324], {icon: iconPole}).addTo(map)    
-//let pole9 = L.marker([10.21807,-83.79469], {icon: iconPole}).addTo(map)    
-//let pole10 = L.marker([10.21755,-83.79469], {icon: iconPole}).addTo(map)    
+let pole = L.marker([10.21796,-83.79262], {icon: iconPole}).addTo(map)    
+let pole2 = L.marker([10.21742,-83.79272], {icon: iconPole}).addTo(map) 
+let pole3 = L.marker([10.21801,-83.79362], {icon: iconPole}).addTo(map)    
+let pole4 = L.marker([10.21751,-83.79412], {icon: iconPole}).addTo(map)    
+let pole5 = L.marker([10.21801,-83.79412], {icon: iconPole}).addTo(map)    
+let pole6 = L.marker([10.21751,-83.79362], {icon: iconPole}).addTo(map)    
+let pole7 = L.marker([10.21795,-83.79319], {icon: iconPole}).addTo(map)    
+let pole8 = L.marker([10.21743,-83.79324], {icon: iconPole}).addTo(map)    
+let pole9 = L.marker([10.21807,-83.79469], {icon: iconPole}).addTo(map)    
+let pole10 = L.marker([10.21755,-83.79469], {icon: iconPole}).addTo(map)    
 </script>
 
 <font size="3"
