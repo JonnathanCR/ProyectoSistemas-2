@@ -37,10 +37,9 @@
 <script>
     var map = L.map('map').setView([10.21770,-83.79370], 87);
 
-var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-});
-osm.addTo(map);
+}).addTo(map);
   
 getJSON("multipolygons.geojson",function(data){
 
@@ -48,11 +47,11 @@ L.geoJson(data).addTo(map);
        
 });
     
-//map.fitBounds(datalayer.getBounds());   
+map.fitBounds(datalayer.getBounds());   
     
-//onEachFeature: function(feature, featureLayer) {
-//featureLayer.bindPopup(feature.properties.key);
-//} 
+onEachFeature: function(feature, featureLayer) {
+featureLayer.bindPopup(feature.properties.key);
+} 
     
     
     
