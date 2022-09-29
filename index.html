@@ -36,7 +36,7 @@ $.getJSON("multipolygons.geojson",function(data){
 // add GeoJSON layer to the map once the file is loaded
 var datalayer = L.geoJson(data ,{
 onEachFeature: function(feature, featureLayer) {
-featureLayer.bindPopup(feature.properties.name);
+featureLayer.bindPopup(feature.properties.osm_way_id);
 }
 }).addTo(newMap);
 newMap.fitBounds(datalayer.getBounds());
@@ -46,7 +46,7 @@ $.getJSON("lines.geojson",function(data){
 // add GeoJSON layer to the map once the file is loaded
 var datalayer1 = L.geoJson(data ,{
 onEachFeature: function(feature, featureLayer) {
-featureLayer.bindPopup(feature.properties.name);
+featureLayer.bindPopup(feature.properties.osm_id);
 }
 }).addTo(newMap);
 newMap.fitBounds(datalayer1.getBounds());
