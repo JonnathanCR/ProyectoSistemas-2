@@ -41,6 +41,22 @@ var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 });
 osm.addTo(map);
+  
+getJSON("multipolygons.geojson",function(data){
+// L.geoJson function is used to parse geojson file and load on to map
+L.geoJson(data).addTo(map);
+       
+});
+    
+map.fitBounds(datalayer.getBounds());   
+    
+onEachFeature: function(feature, featureLayer) {
+featureLayer.bindPopup(feature.properties.key);
+} 
+    
+    
+    
+    
     
 let iconBump = L.icon({
     iconUrl: 'bump.png',
