@@ -12,29 +12,38 @@
 <body bgcolor="white">
     
 
-
 <html>
-<head>
-<title>Getting Started - Leaflet js Map interactive library</title>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-</head>
-<body>
-<div id="map" style="width: 1000px; height: 600px;"></div>
-<script>
-var newMap = L.map('map').setView([10.21770,-83.79370], 87);
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-attribution: '&copy; <a href=”http://osm.org/copyright”>OpenStreetMap</a> contributors'
-}).addTo(newMap);
-</script>
-</body>
-</html>
-<script>
-<script type="text/javascript" src="multipolygons.js"></script>
-<script>
-L.geoJson(multipolygons).addTo(map);   
+<head>
+	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+
+ <style>
+  #map { 
+  widh: 50px;
+  height: 600px; }
+ </style>
+ 
+ </head>
+  <body>
+   <div id="map"></div>
+ <script>
+ 
+var map = L.map('map').
+setView([41.66, -4.72], 
+14);
+ 
+L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+    maxZoom: 18
+}).addTo(map);
+
+L.control.scale().addTo(map);
+L.marker([41.66, -4.71], {draggable: true}).addTo(map);
+
+ </script>
+ </body> 
+ </html> 
     
 let iconBump = L.icon({
     iconUrl: 'bump.png',
