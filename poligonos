@@ -1,0 +1,3302 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 551194596,
+          "amenity": "school",
+          "name": "Conservatorio San Agustín",
+          "leisure": null,
+          "landuse": null,
+          "building": null,
+          "addr:city": "Guápiles",
+          "addr:street": "Avenida 7"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7953189,
+                10.2169762
+              ],
+              [
+                -83.7947721,
+                10.2169222
+              ],
+              [
+                -83.7947253,
+                10.2173523
+              ],
+              [
+                -83.7952904,
+                10.2174243
+              ],
+              [
+                -83.7953189,
+                10.2169762
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 419545449,
+          "amenity": null,
+          "name": "Parque Coopevigua 1",
+          "leisure": "park",
+          "landuse": null,
+          "building": null,
+          "addr:city": "Guápiles",
+          "addr:street": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7932604,
+                10.2175291
+              ],
+              [
+                -83.792786,
+                10.2174831
+              ],
+              [
+                -83.7927387,
+                10.2179307
+              ],
+              [
+                -83.7932146,
+                10.2179798
+              ],
+              [
+                -83.7932405,
+                10.2177252
+              ],
+              [
+                -83.7932604,
+                10.2175291
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 368398326,
+          "amenity": null,
+          "name": "Complejo Turístico Javier Vargas",
+          "leisure": null,
+          "landuse": "recreation_ground",
+          "building": null,
+          "addr:city": "Guápiles",
+          "addr:street": "Avenida 13"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7952216,
+                10.2189606
+              ],
+              [
+                -83.7937196,
+                10.2188075
+              ],
+              [
+                -83.7935694,
+                10.2208875
+              ],
+              [
+                -83.7936981,
+                10.2210089
+              ],
+              [
+                -83.7952216,
+                10.2189606
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 551194597,
+          "amenity": "school",
+          "name": "Escuela Adventista",
+          "leisure": null,
+          "landuse": null,
+          "building": null,
+          "addr:city": "Guápiles",
+          "addr:street": "Avenida 13"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7936331,
+                10.2187768
+              ],
+              [
+                -83.7930058,
+                10.2186952
+              ],
+              [
+                -83.7929066,
+                10.219564
+              ],
+              [
+                -83.7935657,
+                10.2196352
+              ],
+              [
+                -83.7936331,
+                10.2187768
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 947052371,
+          "amenity": null,
+          "name": "Gimnasio Comunal Coopevigua 1",
+          "leisure": "sports_hall",
+          "landuse": null,
+          "building": "yes",
+          "addr:city": null,
+          "addr:street": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7924786,
+                10.2175593
+              ],
+              [
+                -83.7919571,
+                10.2174923
+              ],
+              [
+                -83.7919367,
+                10.2177141
+              ],
+              [
+                -83.7924582,
+                10.2177596
+              ],
+              [
+                -83.7924786,
+                10.2175593
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178223,
+          "building": "house",
+          "name": "C4",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7932668,
+                10.217135
+              ],
+              [
+                -83.7931814,
+                10.2171314
+              ],
+              [
+                -83.793152,
+                10.217434
+              ],
+              [
+                -83.7932446,
+                10.217438
+              ],
+              [
+                -83.7932668,
+                10.217135
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178222,
+          "building": "house",
+          "name": "C3",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7931814,
+                10.2171314
+              ],
+              [
+                -83.7930951,
+                10.2171161
+              ],
+              [
+                -83.7930635,
+                10.2174274
+              ],
+              [
+                -83.793152,
+                10.217434
+              ],
+              [
+                -83.7931814,
+                10.2171314
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178221,
+          "building": "house",
+          "name": "C2",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7930951,
+                10.2171161
+              ],
+              [
+                -83.7930008,
+                10.2171107
+              ],
+              [
+                -83.7929817,
+                10.2172782
+              ],
+              [
+                -83.7929695,
+                10.2174182
+              ],
+              [
+                -83.7930635,
+                10.2174274
+              ],
+              [
+                -83.7930951,
+                10.2171161
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 390918703,
+          "building": "yes",
+          "name": "Restaurante Garden Pizza",
+          "amenity": "restaurant",
+          "layer": null,
+          "leisure": null,
+          "cuisine": "pizza",
+          "addr:city": "Guápiles",
+          "addr:street": "Avenida 7",
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7916236,
+                10.2165892
+              ],
+              [
+                -83.7914889,
+                10.2165779
+              ],
+              [
+                -83.7914755,
+                10.2167324
+              ],
+              [
+                -83.7916101,
+                10.2167437
+              ],
+              [
+                -83.7916236,
+                10.2165892
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178219,
+          "building": "house",
+          "name": "A24",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.795126,
+                10.2174758
+              ],
+              [
+                -83.7947597,
+                10.2174349
+              ],
+              [
+                -83.7947624,
+                10.217555
+              ],
+              [
+                -83.7951145,
+                10.2175777
+              ],
+              [
+                -83.795126,
+                10.2174758
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178218,
+          "building": "house",
+          "name": "A23",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7951145,
+                10.2175777
+              ],
+              [
+                -83.7947624,
+                10.217555
+              ],
+              [
+                -83.7947522,
+                10.2176763
+              ],
+              [
+                -83.7950226,
+                10.2176923
+              ],
+              [
+                -83.7951022,
+                10.2176996
+              ],
+              [
+                -83.7951145,
+                10.2175777
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178217,
+          "building": "house",
+          "name": "A22",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7950226,
+                10.2176923
+              ],
+              [
+                -83.7947522,
+                10.2176763
+              ],
+              [
+                -83.7947502,
+                10.2177983
+              ],
+              [
+                -83.7950104,
+                10.2178283
+              ],
+              [
+                -83.7950226,
+                10.2176923
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178216,
+          "building": "house",
+          "name": "A21",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7950104,
+                10.2178283
+              ],
+              [
+                -83.7947502,
+                10.2177983
+              ],
+              [
+                -83.794736,
+                10.2179884
+              ],
+              [
+                -83.7949006,
+                10.2179974
+              ],
+              [
+                -83.7949271,
+                10.2180004
+              ],
+              [
+                -83.7949362,
+                10.2179724
+              ],
+              [
+                -83.7949957,
+                10.2179744
+              ],
+              [
+                -83.7950104,
+                10.2178283
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178220,
+          "building": "house",
+          "name": "A25",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.79455,
+                10.2172834
+              ],
+              [
+                -83.7944478,
+                10.2172759
+              ],
+              [
+                -83.79442,
+                10.2175481
+              ],
+              [
+                -83.7945235,
+                10.2175594
+              ],
+              [
+                -83.79455,
+                10.2172834
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178235,
+          "building": "house",
+          "name": "C16",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7944478,
+                10.2172759
+              ],
+              [
+                -83.7943611,
+                10.2172672
+              ],
+              [
+                -83.7943363,
+                10.2175337
+              ],
+              [
+                -83.79442,
+                10.2175481
+              ],
+              [
+                -83.7944478,
+                10.2172759
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178234,
+          "building": "house",
+          "name": "C15",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7943611,
+                10.2172672
+              ],
+              [
+                -83.794262,
+                10.2172603
+              ],
+              [
+                -83.794239,
+                10.2175267
+              ],
+              [
+                -83.7943363,
+                10.2175337
+              ],
+              [
+                -83.7943611,
+                10.2172672
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178233,
+          "building": "house",
+          "name": "C14",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.794262,
+                10.2172603
+              ],
+              [
+                -83.7941717,
+                10.2172516
+              ],
+              [
+                -83.7941417,
+                10.2175197
+              ],
+              [
+                -83.794239,
+                10.2175267
+              ],
+              [
+                -83.794262,
+                10.2172603
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178232,
+          "building": "house",
+          "name": "C13",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7941717,
+                10.2172516
+              ],
+              [
+                -83.7940797,
+                10.2172289
+              ],
+              [
+                -83.7940514,
+                10.2175076
+              ],
+              [
+                -83.7941417,
+                10.2175197
+              ],
+              [
+                -83.7941717,
+                10.2172516
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178247,
+          "building": "house",
+          "name": "B14",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.794666,
+                10.2176399
+              ],
+              [
+                -83.7945332,
+                10.2176187
+              ],
+              [
+                -83.7945225,
+                10.2178457
+              ],
+              [
+                -83.7945426,
+                10.2178464
+              ],
+              [
+                -83.7946539,
+                10.2178497
+              ],
+              [
+                -83.794666,
+                10.2176399
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178246,
+          "building": "house",
+          "name": "B15",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7945332,
+                10.2176187
+              ],
+              [
+                -83.7944286,
+                10.2176148
+              ],
+              [
+                -83.7944152,
+                10.2178378
+              ],
+              [
+                -83.7944442,
+                10.21784
+              ],
+              [
+                -83.7945225,
+                10.2178457
+              ],
+              [
+                -83.7945332,
+                10.2176187
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178249,
+          "building": "house",
+          "name": "B12",
+          "amenity": null,
+          "layer": 1,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7945426,
+                10.2178464
+              ],
+              [
+                -83.7944442,
+                10.21784
+              ],
+              [
+                -83.7944286,
+                10.2180886
+              ],
+              [
+                -83.7945251,
+                10.2180939
+              ],
+              [
+                -83.7945426,
+                10.2178464
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178245,
+          "building": "house",
+          "name": "B16",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7944286,
+                10.2176148
+              ],
+              [
+                -83.7943173,
+                10.2176016
+              ],
+              [
+                -83.7942985,
+                10.2178299
+              ],
+              [
+                -83.7943296,
+                10.217832
+              ],
+              [
+                -83.7944152,
+                10.2178378
+              ],
+              [
+                -83.7944286,
+                10.2176148
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178244,
+          "building": "house",
+          "name": "B17",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7943173,
+                10.2176016
+              ],
+              [
+                -83.7942019,
+                10.2175923
+              ],
+              [
+                -83.7941818,
+                10.2178233
+              ],
+              [
+                -83.794237,
+                10.2178264
+              ],
+              [
+                -83.7942985,
+                10.2178299
+              ],
+              [
+                -83.7943173,
+                10.2176016
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178243,
+          "building": "house",
+          "name": "B18",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7942019,
+                10.2175923
+              ],
+              [
+                -83.7940853,
+                10.2175884
+              ],
+              [
+                -83.7940651,
+                10.2178075
+              ],
+              [
+                -83.7941352,
+                10.217817
+              ],
+              [
+                -83.7941818,
+                10.2178233
+              ],
+              [
+                -83.7942019,
+                10.2175923
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178250,
+          "building": "house",
+          "name": "B11",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7944442,
+                10.21784
+              ],
+              [
+                -83.7943296,
+                10.217832
+              ],
+              [
+                -83.7943159,
+                10.2180728
+              ],
+              [
+                -83.7944286,
+                10.2180886
+              ],
+              [
+                -83.7944442,
+                10.21784
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178251,
+          "building": "house",
+          "name": "B10",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7943296,
+                10.217832
+              ],
+              [
+                -83.7942985,
+                10.2178299
+              ],
+              [
+                -83.794237,
+                10.2178264
+              ],
+              [
+                -83.7942167,
+                10.2180609
+              ],
+              [
+                -83.7943159,
+                10.2180728
+              ],
+              [
+                -83.7943296,
+                10.217832
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178252,
+          "building": "house",
+          "name": "B9",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.794237,
+                10.2178264
+              ],
+              [
+                -83.7941818,
+                10.2178233
+              ],
+              [
+                -83.7941352,
+                10.217817
+              ],
+              [
+                -83.7941161,
+                10.2180503
+              ],
+              [
+                -83.7942167,
+                10.2180609
+              ],
+              [
+                -83.794237,
+                10.2178264
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178215,
+          "building": "house",
+          "name": "A10",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7949271,
+                10.2180004
+              ],
+              [
+                -83.7949006,
+                10.2179974
+              ],
+              [
+                -83.794736,
+                10.2179884
+              ],
+              [
+                -83.794734,
+                10.2180904
+              ],
+              [
+                -83.7949169,
+                10.2181024
+              ],
+              [
+                -83.7949271,
+                10.2180004
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178248,
+          "building": "house",
+          "name": "B13",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7946539,
+                10.2178497
+              ],
+              [
+                -83.7945426,
+                10.2178464
+              ],
+              [
+                -83.7945251,
+                10.2180939
+              ],
+              [
+                -83.7946472,
+                10.2181044
+              ],
+              [
+                -83.7946539,
+                10.2178497
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178214,
+          "building": "house",
+          "name": "A19",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7947461,
+                10.2181624
+              ],
+              [
+                -83.7946343,
+                10.2181584
+              ],
+              [
+                -83.7946303,
+                10.2184225
+              ],
+              [
+                -83.7947421,
+                10.2184345
+              ],
+              [
+                -83.7947461,
+                10.2181624
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178213,
+          "building": "house",
+          "name": "A16",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7946343,
+                10.2181584
+              ],
+              [
+                -83.7945368,
+                10.2181604
+              ],
+              [
+                -83.7945327,
+                10.2184185
+              ],
+              [
+                -83.7946303,
+                10.2184225
+              ],
+              [
+                -83.7946343,
+                10.2181584
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178212,
+          "building": "house",
+          "name": "A17",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7945368,
+                10.2181604
+              ],
+              [
+                -83.7944351,
+                10.2181484
+              ],
+              [
+                -83.7944229,
+                10.2184085
+              ],
+              [
+                -83.7945327,
+                10.2184185
+              ],
+              [
+                -83.7945368,
+                10.2181604
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178211,
+          "building": "house",
+          "name": "A16",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7944351,
+                10.2181484
+              ],
+              [
+                -83.7943254,
+                10.2181444
+              ],
+              [
+                -83.7943152,
+                10.2184025
+              ],
+              [
+                -83.7944229,
+                10.2184085
+              ],
+              [
+                -83.7944351,
+                10.2181484
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178210,
+          "building": "house",
+          "name": "A15",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7943254,
+                10.2181444
+              ],
+              [
+                -83.7942176,
+                10.2181324
+              ],
+              [
+                -83.7942034,
+                10.2183905
+              ],
+              [
+                -83.7943152,
+                10.2184025
+              ],
+              [
+                -83.7943254,
+                10.2181444
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178209,
+          "building": "house",
+          "name": "A14",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7942176,
+                10.2181324
+              ],
+              [
+                -83.7941221,
+                10.2181264
+              ],
+              [
+                -83.7940997,
+                10.2183865
+              ],
+              [
+                -83.7942034,
+                10.2183905
+              ],
+              [
+                -83.7942176,
+                10.2181324
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178231,
+          "building": "house",
+          "name": "C12",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7940797,
+                10.2172289
+              ],
+              [
+                -83.7939116,
+                10.217208
+              ],
+              [
+                -83.7939098,
+                10.2172219
+              ],
+              [
+                -83.7938798,
+                10.2174954
+              ],
+              [
+                -83.7940514,
+                10.2175076
+              ],
+              [
+                -83.7940797,
+                10.2172289
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178230,
+          "building": "house",
+          "name": "C11",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7939098,
+                10.2172219
+              ],
+              [
+                -83.7938037,
+                10.217215
+              ],
+              [
+                -83.7937771,
+                10.2174884
+              ],
+              [
+                -83.7938798,
+                10.2174954
+              ],
+              [
+                -83.7939098,
+                10.2172219
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178229,
+          "building": "house",
+          "name": "C10",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7938037,
+                10.217215
+              ],
+              [
+                -83.7937134,
+                10.2171993
+              ],
+              [
+                -83.7936833,
+                10.2174797
+              ],
+              [
+                -83.7937771,
+                10.2174884
+              ],
+              [
+                -83.7938037,
+                10.217215
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178228,
+          "building": "house",
+          "name": "C9",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7937134,
+                10.2171993
+              ],
+              [
+                -83.7936249,
+                10.2171836
+              ],
+              [
+                -83.7935948,
+                10.217471
+              ],
+              [
+                -83.7936833,
+                10.2174797
+              ],
+              [
+                -83.7937134,
+                10.2171993
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178227,
+          "building": "house",
+          "name": "C8",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7936249,
+                10.2171836
+              ],
+              [
+                -83.7935311,
+                10.217168
+              ],
+              [
+                -83.7935099,
+                10.2174588
+              ],
+              [
+                -83.7935948,
+                10.217471
+              ],
+              [
+                -83.7936249,
+                10.2171836
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178226,
+          "building": "house",
+          "name": "C7",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7935311,
+                10.217168
+              ],
+              [
+                -83.793432,
+                10.2171523
+              ],
+              [
+                -83.7934135,
+                10.2174472
+              ],
+              [
+                -83.7935099,
+                10.2174588
+              ],
+              [
+                -83.7935311,
+                10.217168
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178242,
+          "building": "house",
+          "name": "B20",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7940853,
+                10.2175884
+              ],
+              [
+                -83.7939807,
+                10.2175765
+              ],
+              [
+                -83.7939632,
+                10.2178035
+              ],
+              [
+                -83.7940222,
+                10.2178058
+              ],
+              [
+                -83.7940651,
+                10.2178075
+              ],
+              [
+                -83.7940853,
+                10.2175884
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178241,
+          "building": "house",
+          "name": "B21",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7939807,
+                10.2175765
+              ],
+              [
+                -83.7938653,
+                10.2175607
+              ],
+              [
+                -83.7938613,
+                10.2177916
+              ],
+              [
+                -83.7939294,
+                10.2177996
+              ],
+              [
+                -83.7939632,
+                10.2178035
+              ],
+              [
+                -83.7939807,
+                10.2175765
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178240,
+          "building": "house",
+          "name": "B22",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7938653,
+                10.2175607
+              ],
+              [
+                -83.7937634,
+                10.2175554
+              ],
+              [
+                -83.7937553,
+                10.2177864
+              ],
+              [
+                -83.7938251,
+                10.2177898
+              ],
+              [
+                -83.7938613,
+                10.2177916
+              ],
+              [
+                -83.7938653,
+                10.2175607
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178253,
+          "building": "house",
+          "name": "B8",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7941352,
+                10.217817
+              ],
+              [
+                -83.7940651,
+                10.2178075
+              ],
+              [
+                -83.7940222,
+                10.2178058
+              ],
+              [
+                -83.7940088,
+                10.2180411
+              ],
+              [
+                -83.7941161,
+                10.2180503
+              ],
+              [
+                -83.7941352,
+                10.217817
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178254,
+          "building": "house",
+          "name": "B7",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7940222,
+                10.2178058
+              ],
+              [
+                -83.7939632,
+                10.2178035
+              ],
+              [
+                -83.7939294,
+                10.2177996
+              ],
+              [
+                -83.7939082,
+                10.2180332
+              ],
+              [
+                -83.7940088,
+                10.2180411
+              ],
+              [
+                -83.7940222,
+                10.2178058
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178255,
+          "building": "house",
+          "name": "B6",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7939294,
+                10.2177996
+              ],
+              [
+                -83.7938613,
+                10.2177916
+              ],
+              [
+                -83.7938251,
+                10.2177898
+              ],
+              [
+                -83.7938103,
+                10.2180305
+              ],
+              [
+                -83.7939082,
+                10.2180332
+              ],
+              [
+                -83.7939294,
+                10.2177996
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178256,
+          "building": "house",
+          "name": "B5",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7938251,
+                10.2177898
+              ],
+              [
+                -83.7937553,
+                10.2177864
+              ],
+              [
+                -83.7937181,
+                10.2177821
+              ],
+              [
+                -83.7936937,
+                10.2180173
+              ],
+              [
+                -83.7938103,
+                10.2180305
+              ],
+              [
+                -83.7938251,
+                10.2177898
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178239,
+          "building": "house",
+          "name": "B23",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7937634,
+                10.2175554
+              ],
+              [
+                -83.7936548,
+                10.2175409
+              ],
+              [
+                -83.7936428,
+                10.2177735
+              ],
+              [
+                -83.7937181,
+                10.2177821
+              ],
+              [
+                -83.7937553,
+                10.2177864
+              ],
+              [
+                -83.7937634,
+                10.2175554
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178238,
+          "building": "house",
+          "name": "B25",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7936548,
+                10.2175409
+              ],
+              [
+                -83.79354,
+                10.2175345
+              ],
+              [
+                -83.7935153,
+                10.2177656
+              ],
+              [
+                -83.7936025,
+                10.2177735
+              ],
+              [
+                -83.7936428,
+                10.2177735
+              ],
+              [
+                -83.7936548,
+                10.2175409
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178237,
+          "building": "house",
+          "name": "B26",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.79354,
+                10.2175345
+              ],
+              [
+                -83.7934374,
+                10.2175215
+              ],
+              [
+                -83.7934197,
+                10.2177566
+              ],
+              [
+                -83.7935153,
+                10.2177656
+              ],
+              [
+                -83.79354,
+                10.2175345
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178257,
+          "building": "house",
+          "name": "B4",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7937181,
+                10.2177821
+              ],
+              [
+                -83.7936428,
+                10.2177735
+              ],
+              [
+                -83.7936025,
+                10.2177735
+              ],
+              [
+                -83.793585,
+                10.2180028
+              ],
+              [
+                -83.7936937,
+                10.2180173
+              ],
+              [
+                -83.7937181,
+                10.2177821
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178258,
+          "building": "house",
+          "name": "B3",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7936025,
+                10.2177735
+              ],
+              [
+                -83.7935153,
+                10.2177656
+              ],
+              [
+                -83.7934885,
+                10.2179988
+              ],
+              [
+                -83.793585,
+                10.2180028
+              ],
+              [
+                -83.7936025,
+                10.2177735
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178259,
+          "building": "house",
+          "name": "B2",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7935153,
+                10.2177656
+              ],
+              [
+                -83.7934197,
+                10.2177566
+              ],
+              [
+                -83.7934013,
+                10.2179949
+              ],
+              [
+                -83.7934885,
+                10.2179988
+              ],
+              [
+                -83.7935153,
+                10.2177656
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178225,
+          "building": "house",
+          "name": "C6",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.793432,
+                10.2171523
+              ],
+              [
+                -83.7933509,
+                10.2171469
+              ],
+              [
+                -83.7933223,
+                10.2174433
+              ],
+              [
+                -83.7934135,
+                10.2174472
+              ],
+              [
+                -83.793432,
+                10.2171523
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178224,
+          "building": "house",
+          "name": "C5",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7933509,
+                10.2171469
+              ],
+              [
+                -83.7932668,
+                10.217135
+              ],
+              [
+                -83.7932446,
+                10.217438
+              ],
+              [
+                -83.7933223,
+                10.2174433
+              ],
+              [
+                -83.7933509,
+                10.2171469
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178196,
+          "building": "house",
+          "name": "C1",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": "Guápiles",
+          "addr:street": "Calle 6",
+          "addr:postcode": 70201
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7929817,
+                10.2172782
+              ],
+              [
+                -83.792813,
+                10.2172622
+              ],
+              [
+                -83.7927968,
+                10.2174002
+              ],
+              [
+                -83.7929695,
+                10.2174182
+              ],
+              [
+                -83.7929817,
+                10.2172782
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178236,
+          "building": "house",
+          "name": "B27",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7934374,
+                10.2175215
+              ],
+              [
+                -83.7933347,
+                10.2175058
+              ],
+              [
+                -83.7933011,
+                10.2177479
+              ],
+              [
+                -83.7934197,
+                10.2177566
+              ],
+              [
+                -83.7934374,
+                10.2175215
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178260,
+          "building": "house",
+          "name": "B1",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7934197,
+                10.2177566
+              ],
+              [
+                -83.7933011,
+                10.2177479
+              ],
+              [
+                -83.7932793,
+                10.2179804
+              ],
+              [
+                -83.7934013,
+                10.2179949
+              ],
+              [
+                -83.7934197,
+                10.2177566
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178208,
+          "building": "house",
+          "name": "A13",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7941221,
+                10.2181264
+              ],
+              [
+                -83.7940205,
+                10.2181204
+              ],
+              [
+                -83.7939859,
+                10.2183744
+              ],
+              [
+                -83.7940997,
+                10.2183865
+              ],
+              [
+                -83.7941221,
+                10.2181264
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178207,
+          "building": "house",
+          "name": "A12",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7940205,
+                10.2181204
+              ],
+              [
+                -83.7939168,
+                10.2181184
+              ],
+              [
+                -83.7938863,
+                10.2183604
+              ],
+              [
+                -83.7939859,
+                10.2183744
+              ],
+              [
+                -83.7940205,
+                10.2181204
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178206,
+          "building": "house",
+          "name": "A11",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7939168,
+                10.2181184
+              ],
+              [
+                -83.7938111,
+                10.2181004
+              ],
+              [
+                -83.7937725,
+                10.2183524
+              ],
+              [
+                -83.7938863,
+                10.2183604
+              ],
+              [
+                -83.7939168,
+                10.2181184
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178205,
+          "building": "house",
+          "name": "A10",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7938111,
+                10.2181004
+              ],
+              [
+                -83.7936952,
+                10.2180864
+              ],
+              [
+                -83.7936668,
+                10.2183184
+              ],
+              [
+                -83.7936668,
+                10.2183444
+              ],
+              [
+                -83.7937725,
+                10.2183524
+              ],
+              [
+                -83.7938111,
+                10.2181004
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178204,
+          "building": "house",
+          "name": "A9",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7936952,
+                10.2180864
+              ],
+              [
+                -83.7935977,
+                10.2180744
+              ],
+              [
+                -83.7935631,
+                10.2183264
+              ],
+              [
+                -83.7936668,
+                10.2183184
+              ],
+              [
+                -83.7936952,
+                10.2180864
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178203,
+          "building": "house",
+          "name": "A8",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7935977,
+                10.2180744
+              ],
+              [
+                -83.793492,
+                10.2180704
+              ],
+              [
+                -83.7934818,
+                10.2181299
+              ],
+              [
+                -83.7934716,
+                10.2181934
+              ],
+              [
+                -83.7934533,
+                10.2183084
+              ],
+              [
+                -83.7935631,
+                10.2183264
+              ],
+              [
+                -83.7935977,
+                10.2180744
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178202,
+          "building": "house",
+          "name": "A7",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.793492,
+                10.2180704
+              ],
+              [
+                -83.7933822,
+                10.2180624
+              ],
+              [
+                -83.7933537,
+                10.2183084
+              ],
+              [
+                -83.7934533,
+                10.2183084
+              ],
+              [
+                -83.7934716,
+                10.2181934
+              ],
+              [
+                -83.7934818,
+                10.2181299
+              ],
+              [
+                -83.793492,
+                10.2180704
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178201,
+          "building": "house",
+          "name": "A6",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7933822,
+                10.2180624
+              ],
+              [
+                -83.7932724,
+                10.2180484
+              ],
+              [
+                -83.7932521,
+                10.2183044
+              ],
+              [
+                -83.7933537,
+                10.2183084
+              ],
+              [
+                -83.7933822,
+                10.2180624
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178200,
+          "building": "house",
+          "name": "A5",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": "Guápiles",
+          "addr:street": "Avenida 11",
+          "addr:postcode": 70201
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7932724,
+                10.2180484
+              ],
+              [
+                -83.7931667,
+                10.2180384
+              ],
+              [
+                -83.7931383,
+                10.2182924
+              ],
+              [
+                -83.7932521,
+                10.2183044
+              ],
+              [
+                -83.7932724,
+                10.2180484
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178199,
+          "building": "house",
+          "name": "A4",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": "Guápiles",
+          "addr:street": "Avenida 11",
+          "addr:postcode": 70201
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7931667,
+                10.2180384
+              ],
+              [
+                -83.7930529,
+                10.2180264
+              ],
+              [
+                -83.7930265,
+                10.2182804
+              ],
+              [
+                -83.7931383,
+                10.2182924
+              ],
+              [
+                -83.7931667,
+                10.2180384
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178197,
+          "building": "house",
+          "name": "A2",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": "Guápiles",
+          "addr:street": "Avenida 11",
+          "addr:postcode": 70201
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7929472,
+                10.2180204
+              ],
+              [
+                -83.7928354,
+                10.2180064
+              ],
+              [
+                -83.7928151,
+                10.2181944
+              ],
+              [
+                -83.7929309,
+                10.2181984
+              ],
+              [
+                -83.7929472,
+                10.2180204
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178195,
+          "building": "house",
+          "name": "A1",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": "Guápiles",
+          "addr:street": "Avenida 11",
+          "addr:postcode": 70201
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7928354,
+                10.2180064
+              ],
+              [
+                -83.7927215,
+                10.2180004
+              ],
+              [
+                -83.7927012,
+                10.2181844
+              ],
+              [
+                -83.7928151,
+                10.2181944
+              ],
+              [
+                -83.7928354,
+                10.2180064
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 1096178198,
+          "building": "house",
+          "name": "A3",
+          "amenity": null,
+          "layer": null,
+          "leisure": null,
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7930529,
+                10.2180264
+              ],
+              [
+                -83.7929472,
+                10.2180204
+              ],
+              [
+                -83.7929309,
+                10.2181984
+              ],
+              [
+                -83.7929238,
+                10.2182754
+              ],
+              [
+                -83.7930265,
+                10.2182804
+              ],
+              [
+                -83.7930529,
+                10.2180264
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 947052371,
+          "building": "yes",
+          "name": "Gimnasio Comunal Coopevigua 1",
+          "amenity": null,
+          "layer": null,
+          "leisure": "sports_hall",
+          "cuisine": null,
+          "addr:city": null,
+          "addr:street": null,
+          "addr:postcode": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7924786,
+                10.2175593
+              ],
+              [
+                -83.7919571,
+                10.2174923
+              ],
+              [
+                -83.7919367,
+                10.2177141
+              ],
+              [
+                -83.7924582,
+                10.2177596
+              ],
+              [
+                -83.7924786,
+                10.2175593
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 551194596,
+          "amenity": "school",
+          "name": "Conservatorio San Agustín",
+          "building": null,
+          "addr:city": "Guápiles",
+          "addr:street": "Avenida 7",
+          "cuisine": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7953189,
+                10.2169762
+              ],
+              [
+                -83.7947721,
+                10.2169222
+              ],
+              [
+                -83.7947253,
+                10.2173523
+              ],
+              [
+                -83.7952904,
+                10.2174243
+              ],
+              [
+                -83.7953189,
+                10.2169762
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 390918703,
+          "amenity": "restaurant",
+          "name": "Restaurante Garden Pizza",
+          "building": "yes",
+          "addr:city": "Guápiles",
+          "addr:street": "Avenida 7",
+          "cuisine": "pizza"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7916236,
+                10.2165892
+              ],
+              [
+                -83.7914889,
+                10.2165779
+              ],
+              [
+                -83.7914755,
+                10.2167324
+              ],
+              [
+                -83.7916101,
+                10.2167437
+              ],
+              [
+                -83.7916236,
+                10.2165892
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "osm_id": 551194597,
+          "amenity": "school",
+          "name": "Escuela Adventista",
+          "building": null,
+          "addr:city": "Guápiles",
+          "addr:street": "Avenida 13",
+          "cuisine": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.7936331,
+                10.2187768
+              ],
+              [
+                -83.7930058,
+                10.2186952
+              ],
+              [
+                -83.7929066,
+                10.219564
+              ],
+              [
+                -83.7935657,
+                10.2196352
+              ],
+              [
+                -83.7936331,
+                10.2187768
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
