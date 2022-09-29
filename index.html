@@ -17,6 +17,7 @@
 <head>
 	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+	<script type="text/javascript" src="multipolygons.js"></script>
 
  <style>
   #map { 
@@ -40,11 +41,11 @@ L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 L.control.scale().addTo(map);
 L.marker([41.66, -4.71], {draggable: true}).addTo(map);
-
+L.geoJson(multipolygons).addTo(map);
  </script>
  </body> 
  </html> 
-    
+<script>    
 let iconBump = L.icon({
     iconUrl: 'bump.png',
     iconSize: [20,20],
