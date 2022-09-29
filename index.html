@@ -208,7 +208,7 @@ d > 1000000 ? '#FED976' :
 function style(feature) { 
 return { 
 fillColor: getColor(
-feature.properties.POP_EST), 
+feature.properties.show_on_map), 
 weight: 2, 
 opacity: 1, 
 color: 'white', 
@@ -223,7 +223,7 @@ L.geoJson(myGeoJSON1, { style: style }).addTo(map);
     L.geoJson(myGeoJSON4, { style: style }).addTo(map);
     L.geoJson(myGeoJSON5, { style: style }).addTo(map);
     
-/*function popup(feature, layer) { 
+function popup(feature, layer) { 
 if (feature.properties && feature.properties.name) 
 { 
 layer.bindPopup(feature.properties.name); 
@@ -250,7 +250,7 @@ geojson = L.geoJson(myGeoJSON3, {
 }) 
 .addTo(map);
     
-geojson = L.geoJson(myGeoJSON5, {style: style, onEachFeature: popup }) .addTo(map);*/
+geojson = L.geoJson(myGeoJSON5, {style: style, onEachFeature: popup }) .addTo(map);
 
 </script>
 
