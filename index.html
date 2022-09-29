@@ -1,17 +1,130 @@
 <!DOCTYPE html>
+<font size="3"
+      face="arial"
+      color="gray">
+      Sistemas de informacion Geografica. <br><p>
+
+      Proyecto de Jonnathan Villalobos Dominguez. <br>
+      Carne: 2020146903. <br><p>
+
+      Residencial Coopevigua 1, Guapiles Limón.<br><p>
+</font>
+<body bgcolor="white">
+    
+
+
 <html>
-
-  <head>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ol3/3.8.2/ol.min.css" type="text/css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
-    <script src="https://epsg.io/2039.js"></script>
-  </head>
-
-  <body>
-    <div id="map" tabindex="0"></div>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ol3/3.8.2/ol.min.js" type="text/javascript"></script>
-    <script src="script.js"></script>
-  </body>
-
+<head>
+<title>Getting Started - Leaflet js Map interactive library</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+</head>
+<body>
+<div id="map" style="width: 1000px; height: 600px;"></div>
+<script>
+var newMap = L.map('map').setView([10.21770,-83.79370], 87);
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+attribution: '&copy; <a href=”http://osm.org/copyright”>OpenStreetMap</a> contributors'
+}).addTo(newMap);
+</script>
+</body>
 </html>
+<script>
+$.getJSON("multipolygons.geojson",function(data){
+// add GeoJSON layer to the map once the file is loaded
+var datalayer = L.geoJson(data ,{
+onEachFeature: function(feature, featureLayer) {
+featureLayer.bindPopup(feature.properties.name);
+}
+}).addTo(newMap);
+newMap.fitBounds(datalayer.getBounds());
+});
+
+$.getJSON("lines.geojson",function(data){
+// add GeoJSON layer to the map once the file is loaded
+var datalayer1 = L.geoJson(data ,{
+onEachFeature: function(feature1, featureLayer1) {
+featureLayer1.bindPopup(feature1.properties.osm_id);
+}
+}).addTo(newMap);
+newMap.fitBounds(datalayer1.getBounds());
+});
+    
+$.getJSON("points.geojson",function(data){
+// add GeoJSON layer to the map once the file is loaded
+var datalayer2 = L.geoJson(data ,{
+onEachFeature: function(feature2, featureLayer2) {
+featureLayer2.bindPopup(feature2.properties.osm_id);
+}
+}).addTo(newMap);
+newMap.fitBounds(datalayer2.getBounds());
+});   
+    
+    
+let iconBump = L.icon({
+    iconUrl: 'bump.png',
+    iconSize: [20,20],
+    iconAnchor: [15,20]
+})    
+
+let iconPeatonal = L.icon({
+    iconUrl: 'peatonal.png',
+    iconSize: [20,20],
+    iconAnchor: [15,20]
+})    
+
+let iconPole = L.icon({
+    iconUrl: 'electricPole.png',
+    iconSize: [20,20],
+    iconAnchor: [15,20]
+})    
+
+let iconHydra = L.icon({
+    iconUrl: 'hydra.png',
+    iconSize: [20,20],
+    iconAnchor: [15,20]
+})    
+
+//let bump = L.marker([10.21802,-83.79369], {icon: iconBump}).addTo(map)    
+//let bump2 = L.marker([10.21750,-83.79417], {icon: iconBump}).addTo(map)  
+
+//let hydra = L.marker([10.21802,-83.79417], {icon: iconHydra}).addTo(map)    
+//let hydra2 = L.marker([10.21750,-83.79369], {icon: iconHydra}).addTo(map) 
+
+//let peatonal = L.marker([10.21795,-83.79269], {icon: iconPeatonal}).addTo(map)    
+//let peatonal2 = L.marker([10.21743,-83.79272], {icon: iconPeatonal}).addTo(map) 
+
+//let pole = L.marker([10.21796,-83.79262], {icon: iconPole}).addTo(map)    
+//let pole2 = L.marker([10.21742,-83.79272], {icon: iconPole}).addTo(map) 
+//let pole3 = L.marker([10.21801,-83.79362], {icon: iconPole}).addTo(map)    
+//let pole4 = L.marker([10.21751,-83.79412], {icon: iconPole}).addTo(map)    
+//let pole5 = L.marker([10.21801,-83.79412], {icon: iconPole}).addTo(map)    
+//let pole6 = L.marker([10.21751,-83.79362], {icon: iconPole}).addTo(map)    
+//let pole7 = L.marker([10.21795,-83.79319], {icon: iconPole}).addTo(map)    
+//let pole8 = L.marker([10.21743,-83.79324], {icon: iconPole}).addTo(map)    
+//let pole9 = L.marker([10.21807,-83.79469], {icon: iconPole}).addTo(map)    
+//let pole10 = L.marker([10.21755,-83.79469], {icon: iconPole}).addTo(map)    
+</script>
+
+<font size="3"
+      face="arial"
+      color="gray">
+      <p>Casas Agregadas: <br><p>
+      - De la "A1" hasta la "A25" <br>
+      - De la "B1" hasta la "B27" <br>
+      - De la "C1" hasta la "C16" <br><p>
+      Cabe destacar la no existencia de las casas "B19" y "B24" <br>
+
+      El parque y Gimnasio de Coopevigua 1 ya estaban agregados. <br><p>
+
+      Elementos puntuales agregados: <br><p>
+      - 2 pasos peatonales<br>
+      - 2 reductores de velocidad<br>
+      - 2 hidrantes<br>
+      - 10 postes del tendido electrico<br><p>
+      
+      Elementos lineales no existentes<br><p>
+
+</font>
