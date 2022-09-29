@@ -218,8 +218,12 @@ fillOpacity: 0.7
 }
     
 L.geoJson(myGeoJSON1, { style: style }).addTo(map);
+    L.geoJson(myGeoJSON2, { style: style }).addTo(map);
+    L.geoJson(myGeoJSON3, { style: style }).addTo(map);
+    L.geoJson(myGeoJSON4, { style: style }).addTo(map);
+    L.geoJson(myGeoJSON5, { style: style }).addTo(map);
     
-function popup(feature, layer) { 
+/*function popup(feature, layer) { 
 if (feature.properties && feature.properties.name) 
 { 
 layer.bindPopup(feature.properties.name); 
@@ -246,7 +250,7 @@ geojson = L.geoJson(myGeoJSON3, {
 }) 
 .addTo(map);
     
-geojson = L.geoJson(myGeoJSON5, {style: style, onEachFeature: popup }) .addTo(map);
+geojson = L.geoJson(myGeoJSON5, {style: style, onEachFeature: popup }) .addTo(map);*/
 
 </script>
 
