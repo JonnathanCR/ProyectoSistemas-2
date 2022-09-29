@@ -32,7 +32,7 @@ attribution: '&copy; <a href=”http://osm.org/copyright”>OpenStreetMap</a> co
 </body>
 </html>
   
-$.getJSON("usa_adm.geojson",function(data){
+$.getJSON("multipolygons.geojson",function(data){
 // add GeoJSON layer to the map once the file is loaded
 var datalayer = L.geoJson(data ,{
 onEachFeature: function(feature, featureLayer) {
