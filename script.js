@@ -22,7 +22,7 @@ var styleFunction = function(feature, resolution) {
 // Create geojsonLayer
 var geojsonLayer = new ol.layer.Vector({
     source: new ol.source.Vector({
-        url: 'file.geojson',
+        url: 'multipolygons.geojson',
         format: new ol.format.GeoJSON({
           // Transforms geojson data from EPSG:2039 to EPSG:3857
           defaultDataProjection: 'EPSG:2039',
