@@ -31,7 +31,7 @@ attribution: '&copy; <a href=”http://osm.org/copyright”>OpenStreetMap</a> co
 </script>
 </body>
 </html>
-  
+<script>
 $.getJSON("multipolygons.geojson",function(data){
 // add GeoJSON layer to the map once the file is loaded
 var datalayer = L.geoJson(data ,{
@@ -41,7 +41,7 @@ featureLayer.bindPopup(feature.properties.NAME_1);
 }).addTo(newMap);
 newMap.fitBounds(datalayer.getBounds());
 });
-    
+</script>    
     
     
     
